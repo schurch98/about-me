@@ -34,6 +34,7 @@ body {
   grid-area: icon;
   text-align: center;
   margin: 0 auto;
+  padding-right: 5px;
   width: 8vw;
 }
 
@@ -100,13 +101,14 @@ body {
   height: 4vw;
   width: 14vw;
   margin: 0 auto;
+  padding-right: 5px;
 }
 
 /*navbar*/
 nav {
     font-family: 'Poppins', sans-serif; 
-    font-size: 5vw;
-    width: 80vw;
+    font-size: 6vw;
+    width: 85vw;
     margin: 0 auto;
   }  
 
@@ -166,8 +168,8 @@ nav li a:active {
 .resume-link {
   grid-area: resume-link;
   font-family: 'Poppins', sans-serif; 
-  font-size: 5.3vw; 
-  margin: 2em 7em;
+  font-size: 5.5vw; 
+  padding: 2em 6.4em;
   display: flex;
   text-decoration: none;
   color: #240707;   

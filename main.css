@@ -185,6 +185,7 @@ footer ul {
   display: flex;
   margin:0;
   padding:0;
+  height: 20vw;
   justify-content: space-evenly;
   flex-direction: row;
   background-color: #240707;
@@ -192,17 +193,13 @@ footer ul {
 
 footer li {
   list-style: none;
-  align-self:flex-end;
+  align-self: center;
 }
 
 footer li a {
   width: 0 auto;
   text-decoration: none;
   transition: .3s;
-}
-
-footer ul li:hover {
-  opacity: 0.6;
 }
 
 .instagram { 
@@ -314,6 +311,10 @@ hr {
 
 footer {
   grid-area: f; 
+}
+
+footer ul li:hover {
+  opacity: 0.6;
 }
 
 }
